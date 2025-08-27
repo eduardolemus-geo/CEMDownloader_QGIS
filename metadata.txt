@@ -1,0 +1,22 @@
+[general]
+name=CEMDownloader in QGIS
+qgisMinimumVersion=3.22
+qgisMaximumVersion=3.99
+version=0.1.0
+author=Eduardo Lemus
+email=eduardo.lemusm@fi.unam.edu
+description=Downloads INEGI CEM V3 by state (ZIP) and by polygon, and loads rasters automatically into the QGIS project. Temporary files are stored in the OS temp directory.
+about=CEMDownloader_QGIS fetches CEM V3 by state and performs WCS-based per-polygon downloads with clipping, adding Single-band Gray styled rasters to the project.
+category=Raster
+icon=icon.png
+license=GPL-3.0-or-later
+homepage=https://github.com/eduardolemus-geo/CEMDownloader_QGIS
+repository=https://github.com/eduardolemus-geo/CEMDownloader_QGIS
+tracker=https://github.com/eduardolemus-geo/CEMDownloader_QGIS/issues
+tags=cem, inegi, dem, mexico, raster, wcs, qgis
+changelog=
+  0.1.0 (2025-08-27)
+   - State ZIP downloader with live progress (QgsNetworkAccessManager).
+   - WCS GetCoverage per-polygon download + GDAL cliprasterbymasklayer.
+   - Auto-load with Single-band Gray (Min/Max stretch).
+   - Temporary file handling and status/progress UI.
