@@ -1,9 +1,6 @@
 # Changelog
 Todos los cambios notables de este proyecto.
 
-El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/)
-y este proyecto respeta [Semantic Versioning](https://semver.org/lang/es/).
-
 ## [0.1.0] - 2025-08-27
 ### Added
 - Descarga CEM V3 por estado (ZIP de INEGI) con progreso en vivo usando `QgsNetworkAccessManager`.
@@ -11,4 +8,3 @@ y este proyecto respeta [Semantic Versioning](https://semver.org/lang/es/).
 - Carga automática de rásters al proyecto con simbología **Gris monobanda** (Stretch Min/Max).
 - Manejo de archivos temporales en la carpeta del sistema y mensajes de estado/progreso en la UI.
 
-[0.1.0]: https://github.com/eduardolemus-geo/CEMDownloader_QGIS/releases/tag/v0.1.0
